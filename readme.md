@@ -1,5 +1,5 @@
 ## First Coding with Mosh
-Java note
+## Java note
 
 Java was developed by james gosling##
 
