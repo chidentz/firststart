@@ -1,5 +1,9 @@
+import java.awt.*;
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("hello ");
+       String message = "Hello World";
+        System.out.println(message.indexOf("H"));
     }
 }
