@@ -2,10 +2,13 @@ import java.awt.*;
 import java.text.NumberFormat;
 import java.util.Arrays;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String result=NumberFormat.getCurrencyInstance().format(1234567.891);
-        System.out.println(result);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Name: ");
+        String name = scanner.nextLine().trim();
+        System.out.println("You are " + name);
     }
 }
